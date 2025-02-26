@@ -20,9 +20,9 @@ void invertirCadena(char *cadena) {
 }
 
 int main() {
-    char cadena[] = "Hola Mundo";
+    char cadena[] = "Cadena de caracteres";
     printf("Cadena original: %s\n", cadena);
     invertirCadena(cadena);
     printf("Cadena invertida: %s\n", cadena);
-    return 0;
+    return 0;   
 }
